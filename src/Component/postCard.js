@@ -10,9 +10,8 @@ import KikiPropup from "../util/kikiPropup"
 function PostCard({
   post: { likeCount, commentCount, username, createdAt, body, id, likes },
 }) {
-  const commentOnPost = () => {
-    console.log("comment");
-  };
+
+
   const context = useContext(AuthContext);
 
   return (

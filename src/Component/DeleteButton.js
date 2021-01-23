@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Button, Icon, Confirm } from "semantic-ui-react";
 import KikiPropup from "../util/kikiPropup";
 

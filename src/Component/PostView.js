@@ -12,7 +12,7 @@ function PostView(props) {
   const postId = props.match.params.postId;
 
   const context = useContext(AuthContext);
-  const { loading, error, data } = useQuery(FETCH_ONE_POST, {
+  const { loading, data } = useQuery(FETCH_ONE_POST, {
     variables: {
       postId,
     },

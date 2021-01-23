@@ -3,7 +3,7 @@ import {useForm } from "../util/hooks"
 import gql from 'graphql-tag'
 import { Form } from "semantic-ui-react";
 import { useMutation } from "@apollo/react-hooks";
-import {FETCH_POSTS_QUERY} from "../util/graphql"
+
 
 function CommentForm({postId}){
     const {handleChange , submit , values } =useForm(submitTheComment,{
